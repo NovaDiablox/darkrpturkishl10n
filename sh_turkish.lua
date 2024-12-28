@@ -195,7 +195,6 @@ local tr = {
     createshipment = "Sevkiyat oluştur",
     splitshipment = "Sevkiyatı böl",
     shipment_cannot_split = "Bu sevkiyat bölünemez.",
-
     -- Konuşma
     hear_noone = "Kimse sizi duyamaz %s!",
     hear_everyone = "Herkes sizi duyabilir!",
@@ -237,7 +236,6 @@ local tr = {
     you_bought = "%s öğesini %s fiyatına satın aldınız.",
     you_got_yourself = "Kendinize bir %s aldınız.",
     you_received_x = "%s için %s aldınız.",
-
     created_first_jailpos = "İlk hapishane konumunu oluşturdunuz!",
     added_jailpos = "Fazladan bir tane hapishane konumu eklediniz!",
     reset_add_jailpos = "Tüm hapishane konumlarını kaldırdınız ve buraya yeni bir tane eklediniz.",
@@ -250,7 +248,6 @@ local tr = {
     job_switch_question = "%s ile meslek değişmek istiyor musun?",
     job_switch_requested = "Meslek değişimi talep edildi.",
     switch_jobs = "meslek değiş",
-
     cooks_only = "Sadece aşcılar.",
 
     -- Çeşitli
@@ -316,14 +313,12 @@ local tr = {
     credits_for = "EMEĞİ GEÇENLER %s\n",
     credits_see_console = "DarkRP'de emeği geçenler konsola yazıldı.",
     rp_getvehicles = "Özel araçlar için mevcut araçlar:",
-
     data_not_loaded_one = "Verileriniz daha yüklenmedi. Lütfen bekleyin.",
     data_not_loaded_two = "Sorun devam ederse, sunucuya yeniden katılmayı deneyin veya bir yöneticiyle iletişime geçin.",
     cant_spawn_weapons = "Silah oluşturamazsınız.",
     drive_disabled = "Sürüş şimdilik devre dışı.",
     property_disabled = "Mülk şimdilik devre dışı.",
     not_allowed_to_purchase = "Bu öğeyi satın almanıza izin verilmiyor.",
-
     rp_teamban_hint = "rp_teamban [player name/ID] [team name/id]. Bu komutu bir takımdaki oyuncuyu takımdan yasaklamak için kullanın.",
     rp_teamunban_hint = "rp_teamunban [player name/ID] [team name/id]. Bu komutu bir takımdaki oyuncunun yasağını kaldırmak için kullanın.",
     x_teambanned_y_for_z = "%s, %s adlı oyuncuyu %s olduğu için %s dakika boyunca yasakladı.",
@@ -438,7 +433,6 @@ local tr = {
     add = "Ekle",
     remove = "Kaldır",
     none = "Hiçbiri",
-
     x_options = "%s ayarları",
     sell_x = "%s Sat",
     set_x_title = "%s öğesinin başlığını ayarla",
@@ -478,16 +472,12 @@ local tr = {
     make_unwanted = "arama kararını geçersiz kıl",
     set_jailpos = "Hapishane konumunu ayarla",
     add_jailpos = "Hapishane konumunu ekle",
-
     set_custom_job = "Özel bir iş ayarla (etkinleştirmek için enter tuşuna bas)",
-
     set_agenda = "Gündemi ayarla (etkinleştirmek için enter tuşuna bas)",
-
     initiate_lockdown = "Dışarı çıkma yasağını başlat",
     stop_lockdown = "Dışarı çıkma yasağını durdur",
     start_lottery = "Piyango düzenle",
     give_license_lookingat = "<lookingat> oyuncusuna ruhsat ver",
-
     laws_of_the_land = "BU TOPRAKLARIN YASALARI",
     law_added = "Yasa eklendi.",
     law_removed = "Yasa kaldırıldı.",
@@ -507,7 +497,7 @@ local tr = {
     -- Licenseweaponstab
     license_tab = [[Ruhsat İzni
 
-    Ruhsat olmadan silah alabilen oyuncuları işaretleTick the weapons people should be able to get WITHOUT a license!
+    Ruhsat olmadan silah alabilen oyuncuları işaretle!
     ]],
     license_tab_other_weapons = "Diğer silahlar:",
 }
