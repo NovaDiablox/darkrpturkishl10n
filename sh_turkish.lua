@@ -225,7 +225,7 @@ local tr = {
     see_settings = "Lütfen DarkRP ayarlarına bakınız.",
     limit = "%s sınırına ulaştınız!",
     have_to_wait = "%s kullanmadan önce %d saniye beklemelisiniz!",
-    must_be_looking_at = "Bir %s bakıyor olmanız gerekiyor!",
+    must_be_looking_at = "Bir %s öğesine bakıyor olmanız gerekiyor!",
     incorrect_job = "%s için doğru mesleğe sahip değilsiniz",
     unavailable = "Bu %s mevcut değil",
     unable = "%s yapamıyorsunuz. %s",
@@ -268,7 +268,7 @@ local tr = {
     wait_with_that = "Şununla bekle.",
     could_not_find = "%s bulunamadı",
     f3tovote = "oylamak için F3 tuşuna bas",
-    listen_up = "Dinle:", -- rp_tell veya rp_tellall'da
+    listen_up = "Dinleyin:", -- rp_tell veya rp_tellall'da
     nlr = "Yeni Yaşam Kuralı: İntikam almak için birini tutuklamayın veya öldürmeyin.",
     reset_settings = "Tüm ayarları sıfırladınız!",
     must_be_x = "%s olmak zorundasınız %s için.",
@@ -494,7 +494,7 @@ local tr = {
     -- Varlık Sekmesi
     buy_a = "Satın al %s: %s",
 
-    -- Licenseweaponstab
+    -- Silah Ruhsatı
     license_tab = [[Ruhsat İzni
 
     Ruhsat olmadan silah alabilen oyuncuları işaretle!
@@ -503,3 +503,4 @@ local tr = {
 }
 
 DarkRP.addLanguage("en", tr)
+-- Turkish localization by Tora aka Nova Diablox
