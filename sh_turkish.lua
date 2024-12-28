@@ -5,12 +5,10 @@ local tr = {
     no_privilege = "Bu eylemi gerçekleştirmek için gerekli yetkiye sahip değilsiniz",
     no_jail_pos = "Hapishane konumu yok",
     invalid_x = "Geçersiz %s! %s",
-
-    -- F1 menüsü
     f1ChatCommandTitle = "Sohbet Komutları",
     f1Search = "Ara...",
 
-    -- Parayla Alakalı Şeyler
+    -- Para
     price = "Fiyat: %s%d",
     priceTag = "Fiyat: %s",
     reset_money = "%s tüm oyuncuların parasını sıfırladı!",
@@ -22,31 +20,23 @@ local tr = {
     Donate = "Bağış Yap",
     you_donated = "%s öğesi %s adlı oyuncuya bağışlandı!",
     has_donated = "%s %s bağışladı!",
-
-
     deducted_x = "%s%d Çıkarıldı",
     need_x = "%s%d Gerekiyor",
-
     deducted_money = "%s Azaltıldı",
     need_money = "%s Gerekiyor",
-
     payday_message = "Maaş yattı! %s para kazandınız!",
     payday_unemployed = "İşsiz olduğun için maaş yatmadı!",
     payday_missed = "Maaş günü kaçırıldı! (Tutuklusun)",
-
     property_tax = "Emlak vergisi! %s",
     property_tax_cant_afford = "Vergini ödeyemedin! Mülkünüz sizden alındı!",
     taxday = "Vergi Günü! Gelirinizin %%s% kadarı alındı!",
-
-    found_cheque = "%s tarafından yazılan bir çekte %s%s buldunuz.",
+    found_cheque = "Çekte %s%s buldunuz. %s tarafından size yazılmış.",
     cheque_details = "Bu çek %s adına düzenlenmiştir.",
     cheque_torn = "Çeki yırttın.",
     cheque_pay = "Ödeme: %s",
     signed = "İmza: %s",
-
     found_cash = "%s%d aldınız!", 
     found_money = "%s aldınız!",
-
     owner_poor = "%s sahibi bu satışa devam edecek durumu yok!",
 
     -- Polis
@@ -59,7 +49,7 @@ local tr = {
     hes_unarrested = "%s hapisten salındı!",
     warrant_ordered = "%s, %s için bir arama emri çıkardı. Sebep: %s",
     warrant_request = "%s, %s için bir arama yetkisi talep ediyor\nSebep: %s",
-    warrant_request2 = "Arama yetki isteği Belediye Başkanı'na %s gönderildi!",
+    warrant_request2 = "Arama yetki isteği %s Belediye Başkanı'na gönderildi!",
     warrant_approved = "Arama emri %s için onaylandı!\nSebep: %s\nEmri Çıkaran: %s",
     warrant_approved2 = "Artık evini arayabilirsiniz.",
     warrant_denied = "Belediye Başkanı %s arama yetki talebinizi reddetti.",
@@ -68,15 +58,14 @@ local tr = {
     warrant_required_unfreeze = "Bu nesneyi çözebilmek için izne ihtiyacınız var.",
     warrant_required_unweld = "Bu nesnenin sabitlemesini kaldırabilmek için izne ihtiyacınız var.",
     wanted_by_police = "%s polis tarafından aranıyor!\nSebep: %s\nEmri Çıkaran: %s",
-    wanted_by_police_print = "%s has made %s wanted, sebep: %s",
+    wanted_by_police_print = "%s, %s oyuncusu için arama emri çıkardı, Sebep: %s",
     wanted_expired = "%s artık Polis tarafından aranmıyor.",
-    wanted_revoked = "%s artık Polis tarafından aranmıyor.\nRevoked by: %s",
+    wanted_revoked = "%s artık Polis tarafından aranmıyor.\nEmri Geri Alan: %s",
     cant_arrest_other_cp = "Diğer SK'leri tutuklayamazsın!",
     must_be_wanted_for_arrest = "Oyuncu tutuklanabilmesi için aranıyor olması gerekiyor.",
     cant_arrest_fadmin_jailed = "Yönetici tarafından hapsedilen bir oyuncuyu tutuklayamazsın.",
     cant_arrest_no_jail_pos = "Hapishane konumu ayarlanmadığı için insanları tutuklayamazsın!",
     cant_arrest_spawning_players = "Canlanmakta olan oyuncuları tutuklayamazsın.",
-
     suspect_doesnt_exist = "Şüpheli mevcut değil.",
     actor_doesnt_exist = "Mevcut değil.",
     get_a_warrant = "arama emri al",
@@ -108,7 +97,7 @@ local tr = {
     need_to_make_vote = "%s olabilmek için oylama başlatman gerekiyor!",
     team_limit_reached = "Sınıra ulaşıldığı için %s olunamıyor",
     wants_to_be = "%s\n\n%s olmak istiyor",
-    has_not_been_made_team = "%s %s yapılmadı!",
+    has_not_been_made_team = "%s, %s yapılmadı!",
     job_has_become = "%s, %s yapıldı!",
 
     -- Felaketler
@@ -133,10 +122,10 @@ local tr = {
     door_already_owned = "Bu kapı sahipli!",
     door_cannot_afford = "Bu kapıyı alacak paran yok!",
     door_hobo_unable = "Bir aylaksan kapı satın alamazsın!",
-    vehicle_cannot_afford = "You can not afford this vehicle!",
+    vehicle_cannot_afford = "Bu aracı almaya paranız yetmiyor!",
     door_bought = "Bu kapıyı %s%s fiyatına satın aldınız",
     vehicle_bought = "Bu aracı %s%s fiyatına satın aldınız",
-    door_need_to_own = "You need to own this door in order to be able to %s",
+    door_need_to_own = "%s için bu kapıya sahip olmanız gerekiyor.",
     door_rem_owners_unownable = "Bir kapı sahip olunamazsa sahipleri kaldıramazsınız!",
     door_add_owners_unownable = "Bir kapı sahip olunamazsa sahip eklemezsiniz!",
     rp_addowner_already_owns_door = "%s bu kapıya sahip (veya kapıyı almasına izin verilmiş)!",
@@ -165,31 +154,23 @@ local tr = {
     Food = "Yemek",
     money_printer = "Para Basma Makinesi",
     tip_jar = "Bahşiş Kavanozu",
-
     sign_this_letter = "Mektubu imzala",
     signed_yours = "Saygılarımla,",
-
     money_printer_exploded = "Para basma makinen patladı!",
     money_printer_overheating = "Para basma makinen aşırı ısınıyor!",
-
     contents = "İçerik: ",
     amount = "Adet: ",
-
     picking_lock = "Kilit açılıyor",
-
     cannot_pocket_x = "Bunu cebine atamazsın!",
     cannot_pocket_gravgunned = "Bunu cebine atamazsın çünkü yer çekimi silahı tarafından tutuluyor.",
     object_too_heavy = "Bu nesne çok ağır.",
     pocket_full = "Cebin dolu!",
     pocket_no_items = "Cebinde hiç öğe yok.",
     drop_item = "Öğeyi bırak",
-
     bonus_destroying_entity = "bu yasadışı varlık yok ediliyor.",
-
     switched_burst = "Seri ateş moduna geçildi.",
     switched_fully_auto = "Tam otomatik ateş moduna geçildi.",
     switched_semi_auto = "Yarı otomatik ateş moduna geçildi.",
-
     keypad_checker_shoot_keypad = "Tuş takımının neyi kontrol ettiğini görmek için ateş et.",
     keypad_checker_shoot_entity = "Tuş takımının hangi varlığa bağlı olduğunu görmek için varlığa ateş et",
     keypad_checker_click_to_clear = "Temizlemek için sağ tıkla.",
@@ -204,14 +185,12 @@ local tr = {
     keypad_on = "AÇIK",
     keypad_off = "KAPALI",
     seconds = "saniye",
-
     persons_weapons = "%s adlı oyuncunun silahları:",
     returned_persons_weapons = "%s adlı kişinin el konulan silahları iade edildi.",
     no_weapons_confiscated = "%s el konulan silahı yok!",
     no_illegal_weapons = "%s silahı yok.",
     confiscated_these_weapons = "Şu silahlara el konuldu:",
     checking_weapons = "Silahlara el konuluyor",
-
     shipment_antispam_wait = "Lütfen tekrar sipariş vermeden önce bekleyin.",
     createshipment = "Sevkiyat oluştur",
     splitshipment = "Sevkiyatı böl",
@@ -231,14 +210,11 @@ local tr = {
     demote = "(RÜTBE DÜŞÜR)",
     ooc = "OOC",
     radio_x = "Radyo %d",
-
     talk = "konuş",
     speak = "konuş",
-
     speak_in_ooc = "OOC'da konuş",
     perform_your_action = "eylemi gerçekleştir",
     talk_to_your_group = "grubuna konuş",
-
     channel_set_to_x = "%s kanalına geçildi!",
     channel = "kanal",
 
@@ -255,7 +231,7 @@ local tr = {
     unavailable = "Bu %s mevcut değil",
     unable = "%s yapamıyorsunuz. %s",
     cant_afford = "%s paranız yetmiyor",
-    created_x = "%s %s oluşturdu",
+    created_x = "%s, %s oluşturdu",
     cleaned_up = "%s öğen temizlenmişti.",
     you_bought_x = "%s öğesini %s%d fiyatına satın aldınız.", 
     you_bought = "%s öğesini %s fiyatına satın aldınız.",
@@ -312,7 +288,7 @@ local tr = {
     tried_to_avoid_demotion = "Rütbe düşürülmesinden kaçtınız. Başarısız oldunuz ve rütbeniz düşürüldü.", -- yaramaz seni!
     lockdown_started = "Belediye Başkanı sokağa çıkma yasağı ilan etti, lütfen evinize dönünüz!",
     lockdown_ended = "The lockdown has ended",
-    gunlicense_requested = "%s has requested %s a gun license",
+    gunlicense_requested = "%s, %s adlı oyuncudan silah ruhsatı istedi",
     gunlicense_granted = "%s, %s adlı oyuncuya silah ruhsatı verdi",
     gunlicense_denied = "%s, %s adlı oyuncunun silah ruhsatı isteğini reddetti",
     gunlicense_question_text = "%s adlı oyuncuya silah ruhsatı verilsin mi?",
@@ -335,22 +311,17 @@ local tr = {
     illegal_characters = "Yasak karakter.",
     too_long = "Çok uzun.",
     too_short = "Çok kısa.",
-
     dead_in_jail = "Hapishaneden çıkana kadar ölüsün!",
     died_in_jail = "%s hapishanede öldü!",
-
     credits_for = "EMEĞİ GEÇENLER %s\n",
     credits_see_console = "DarkRP'de emeği geçenler konsola yazıldı.",
-
     rp_getvehicles = "Özel araçlar için mevcut araçlar:",
 
     data_not_loaded_one = "Verileriniz daha yüklenmedi. Lütfen bekleyin.",
     data_not_loaded_two = "Sorun devam ederse, sunucuya yeniden katılmayı deneyin veya bir yöneticiyle iletişime geçin.",
-
     cant_spawn_weapons = "Silah oluşturamazsınız.",
     drive_disabled = "Sürüş şimdilik devre dışı.",
     property_disabled = "Mülk şimdilik devre dışı.",
-
     not_allowed_to_purchase = "Bu öğeyi satın almanıza izin verilmiyor.",
 
     rp_teamban_hint = "rp_teamban [player name/ID] [team name/id]. Bu komutu bir takımdaki oyuncuyu takımdan yasaklamak için kullanın.",
@@ -363,7 +334,6 @@ local tr = {
     x_set_your_salary_to_y = "%s maaşınızı %s%d değerine ayarladı.",
     you_set_x_money_to_y = "%s adlı oyuncunun parasını %s%d değerine ayarladınız.",
     x_set_your_money_to_y = "%s paranızı %s%d değerine ayarladınız.",
-
     you_set_x_salary = "%s adlı oyuncunun maaşını %s değerine ayarladınız.",
     x_set_your_salary = "%s maaşını %s değerine ayarladı.",
     you_set_x_money = "%s adlı oyuncunun parasını %s değerine ayarladınız.",
@@ -373,16 +343,14 @@ local tr = {
 
     someone_stole_steam_name = "Birisi zaten Steam adınızı RY adı olarak kullanıyor, bu yüzden sizin adınızın sonuna '1' koyduk.",
     already_taken = "Bu isimde biri zaten var.",
-
     job_doesnt_require_vote_currently = "Bu meslek şu anda oylama gerektirmiyor!",
-
     x_made_you_a_y = "%s sizi bir %s yaptı!",
 
     cmd_cant_be_run_server_console = "Bu komut sunucu konsolundan çalıştırılamaz.",
 
     -- Piyango
-    lottery_started = "Piyango düzenleniyor! %s%d için katılmak ister misiniz?", 
-    lottery_has_started = "Piyango düzenleniyor! %s için katılmak ister misiniz?",
+    lottery_started = "Piyango düzenleniyor! Piyangoya %s%d ile katılmak ister misiniz?", 
+    lottery_has_started = "Piyango düzenleniyor! Piyangoya %s ile katılmak ister misiniz?",
     lottery_entered = "Piyangoya %s ile katıldınız",
     lottery_not_entered = "%s piyangoya katılmadı",
     lottery_noone_entered = "Kimse piyangoya katılmadı",
