@@ -1,2 +1,1 @@
-# darkrpturkishl10n
-GMod DarkRP Turkish Localization
+# GMod DarkRP Turkish Localization
